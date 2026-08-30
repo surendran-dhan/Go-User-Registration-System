@@ -55,9 +55,6 @@ func registerHandler(w http.ResponseWriter, r *http.Request) {
 	username := r.FormValue("username")
 	password := r.FormValue("password")
 
-	fmt.Println("Username:", username)
-	fmt.Println("Password:", password)
-
 	_, err := db.Exec(
 		"INSERT INTO users (username, password) VALUES ($1, $2)",
 		username,
