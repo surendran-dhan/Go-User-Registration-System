@@ -136,6 +136,9 @@ Through this project, I practiced:
 
 ## 👨‍💻 Project Goal
 Output of Screenshot:
-<img width="1364" height="636" alt="image" src="https://github.com/user-attachments/assets/c9e60005-2986-48a7-b744-d53664a1b25b" />
+<img width="1361" height="636" alt="image" src="https://github.com/user-attachments/assets/719b05ff-fc73-4923-ac94-f2c7c4767dc4" />
+<img width="1354" height="473" alt="image" src="https://github.com/user-attachments/assets/1320d017-f171-4fcc-813f-c0751d81ce13" />
+
+
 
 The goal of this project is to demonstrate practical backend development skills using **Golang and PostgreSQL**, while understanding the complete flow from frontend form submission to database storage.
