@@ -94,9 +94,6 @@ Update the PostgreSQL connection details in `main.go`:
 connStr := "host=localhost port=5432 user=postgres password=YOUR_PASSWORD dbname=login_db sslmode=disable"
 ```
 
-Output of Screenshot:
-<img width="1364" height="636" alt="image" src="https://github.com/user-attachments/assets/c9e60005-2986-48a7-b744-d53664a1b25b" />
-
 
 ### 5. Run the application
 
@@ -138,5 +135,7 @@ Through this project, I practiced:
 * Environment variables for database credentials
 
 ## 👨‍💻 Project Goal
+Output of Screenshot:
+<img width="1364" height="636" alt="image" src="https://github.com/user-attachments/assets/c9e60005-2986-48a7-b744-d53664a1b25b" />
 
 The goal of this project is to demonstrate practical backend development skills using **Golang and PostgreSQL**, while understanding the complete flow from frontend form submission to database storage.
