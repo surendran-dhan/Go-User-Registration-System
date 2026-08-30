@@ -1,0 +1,115 @@
+```css
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+
+    /* Dark background */
+    background: linear-gradient(135deg, #0f0f0f, #1b1b1b, #000000);
+
+    color: white;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Glass card */
+.container {
+    width: 350px;
+
+    padding: 40px;
+
+    /* Transparent glass */
+    background: rgba(255, 255, 255, 0.08);
+
+    /* Glass blur */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 25px;
+}
+
+/* Transparent input */
+input {
+    width: 100%;
+
+    padding: 13px;
+
+    margin: 10px 0;
+
+    /* Transparent */
+    background: rgba(255, 255, 255, 0.08);
+
+    color: white;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    border-radius: 8px;
+
+    outline: none;
+
+    font-size: 15px;
+}
+
+/* Placeholder */
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* When clicking input */
+input:focus {
+    border-color: white;
+
+    background: rgba(255, 255, 255, 0.12);
+}
+
+/* Button */
+button {
+    width: 100%;
+
+    padding: 13px;
+
+    margin-top: 20px;
+
+    background: white;
+
+    color: black;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+    background: #dddddd;
+
+    transform: translateY(-2px);
+}
+
